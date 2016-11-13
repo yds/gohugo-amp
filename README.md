@@ -1,7 +1,7 @@
 # gohugo-amp
 ⚡ AMP starter theme for gohugo https://gohugo-amp.gohugohq.com
 
-This Hugo theme is supposed to be a starter theme to make it easy to adapt to [Google's AMP-Project](https://www.ampproject.org/). Included in the theme are [**40+ shortcodes and partials**](https://gohugo-amp.gohugohq.com) making it a pleasure to embed AMP-Elements within your content files or your template.
+This Hugo theme is supposed to be a starter theme to make it easy to adapt to [Google's AMP-Project](https://www.ampproject.org/). Included in the theme are [**40+ shortcodes and partials**](https://gohugo-amp.gohugohq.com/shortcodes) making it a pleasure to embed AMP-Elements within your content files or your template.
 
 ## Installation
 
@@ -24,7 +24,7 @@ An extended [theme documentation]((https://gohugo-amp.gohugohq.com)) at [gohugo-
 
 ## Configuration
 
-After installing the theme successfully, we recommend you to take a look at the [demo website](https://gohugo-amp.gohugohq.com). You find extensive documentation and a demonstration of all shortcodes and partials there.
+After installing the theme successfully, we recommend you to take a look at the [Kitchen Sink](https://gohugo-amp.gohugohq.com/kitchen-sink). You find extensive documentation and a demonstration of all shortcodes and partials there.
 
 For some features, you need to add configuration to your base `config.toml` params section:
 
@@ -116,7 +116,7 @@ Have you found a bug or got an idea for a new feature? Feel free to use the [iss
 
 ## License
 
-gohugo-amp released under the [MIT License](LICENSE.md).
+gohugo-amp released under the [MIT License](LICENSE).
 
 ## Thanks
 
