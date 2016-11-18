@@ -49,6 +49,8 @@ For some features, you need to add configuration to your base `config.toml` para
     organisationLogo = "https://gohugohq.com/logo.png" # set organisation logo for structured data
     organisationName = "gohugohq.com" # set organisation name
     organisationAddress = "Some Street 123, 12345 City" # set organisation address
+
+    socialProfiles = ["http://www.facebook.com/your-profile","http://instagram.com/yourProfile","http://www.linkedin.com/in/yourprofile","http://plus.google.com/your_profile"]  # for sameAs in organisation's structured data
     
     publisherName = "gohugohq.com" # publisher used in article schema
     publisherLogo = "https://gohugo-amp.gohugohq.com/logo-publisher.png" # https://developers.google.com/search/docs/data-types/articles#logo-guidelines
