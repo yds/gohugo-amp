@@ -46,6 +46,10 @@ For some features, you need to add configuration to your base `config.toml` para
     ampManifest = "/amp-manifest.json" # required if you want to add the app-banner feature
     
     alternatePageName = "HUGO AMP" # alternative name for website structured data
+    organisationLogo = "https://gohugohq.com/logo.png" # set organisation logo for structured data
+    organisationName = "gohugohq.com" # set organisation name
+    organisationAddress = "Some Street 123, 12345 City" # set organisation address
+    
 ```
 
 
