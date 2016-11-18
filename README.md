@@ -44,6 +44,8 @@ For some features, you need to add configuration to your base `config.toml` para
     googleAnalytics = "UA-123456-78" # required if you want to use google analytics
     appleItunesApp = "app-id=123456789, app-argument=app-name://link/to/app-content" # required if you want to add an app banner with iOS app
     ampManifest = "/amp-manifest.json" # required if you want to add the app-banner feature
+    
+    alternatePageName = "HUGO AMP" # alternative name for website structured data
 ```
 
 
