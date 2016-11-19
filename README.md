@@ -3,7 +3,7 @@
 
 ![gohugo-amp](images/tn.png)
 
-This Hugo theme is supposed to be a starter theme to make it easy to adapt to [Google's AMP-Project](https://www.ampproject.org/). Included in the theme are [**40+ shortcodes and partials**](/shortcodes/) and [automatic Structured Data](/schema/) making it a pleasure to embed AMP-Elements within your content files or your template.
+This Hugo theme is supposed to be a starter theme to make it easy to adapt to [Google's AMP-Project](https://www.ampproject.org/). Included in the theme are [**40+ shortcodes and partials**](https://gohugo-amp.gohugohq.com/shortcodes/) and [automatic Structured Data](https://gohugo-amp.gohugohq.com/schema/) making it a pleasure to embed AMP-Elements within your content files or your template.
 
 ## Installation
 
@@ -16,7 +16,7 @@ $ git clone https://github.com/wildhaber/gohugo-amp.git
 $ rm -rf gohugo-amp/.git
 ```
 
-An extended [theme documentation]((https://gohugo-amp.gohugohq.com)) at [gohugo-amp.gohugohq.com](https://gohugo-amp.gohugohq.com). For more information about the theme installation read the official [setup guide](https://gohugo.io/overview/installing/) of Hugo.
+An extended [theme documentation](https://gohugo-amp.gohugohq.com) at [gohugo-amp.gohugohq.com](https://gohugo-amp.gohugohq.com). For more information about the theme installation read the official [setup guide](https://gohugo.io/overview/installing/) of Hugo.
 
 ## Configuration
 
