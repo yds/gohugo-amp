@@ -62,26 +62,12 @@ For some features, you need to add configuration to your base `config.toml` para
 
 ### Styling
 
-Because amp does not allow you to include CSS styles with the regular `link rel='stylesheet'`-tag we need to embed the CSS in the header section. Helping in this case, we provided a workflow that injects the output from `/src/styles.scss` in the header automatically for you. From this entry point, you can import your custom styling as you like.
+AMP does not allow you to include CSS styles with the regular `link rel='stylesheet'`-tag we need to embed the CSS in the header section.
 
-Building the styles `gohugo-amp` provides the following `npm scripts` in the [package.json](package.json):
+For this case add a file in your regular `layouts/partials/`-folder called `stylesheet.html`. In this file you can write pure CSS (no `<styles>`-Tags required) 
 
-**building the styles once** (perfect for automatic deployments) - also included in the postinstall hook
-```
-$ npm run build
-```
+Since its not a cool idea have to write your stylesheets in an HTML-File we provide an automated process rendering your Sass output directly in this file. You can read more in our [Guide about Styling](https://gohugo-amp.gohugohq.com/styling/) in the documentation.
 
-**generates the styles once**
-```
-$ npm run styles
-```
-
-**watching changes** - recommended while development
-```
-$ npm run styles:watch
-```
-
-Why we had to do this process you can read in the [official amp-project documentation](https://www.ampproject.org/docs/guides/responsive_amp).
 
 ### Google Analytics
 
