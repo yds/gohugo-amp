@@ -11,13 +11,7 @@ Go to the directory where you have your Hugo site and run:
 $ mkdir themes
 $ cd themes
 $ git clone https://github.com/wildhaber/gohugo-amp.git
-```
-
-Next, you need to build the theme's styling once: 
-
-```
-$ cd gohugo-amp
-$ npm install
+$ rm -rf gohugo-amp/.git
 ```
 
 An extended [theme documentation]((https://gohugo-amp.gohugohq.com)) at [gohugo-amp.gohugohq.com](https://gohugo-amp.gohugohq.com). For more information about the theme installation read the official [setup guide](https://gohugo.io/overview/installing/) of Hugo.
