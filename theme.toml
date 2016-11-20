@@ -10,10 +10,6 @@ tags = ["blog", "amp", "seo", "starter"]
 features = ["structured data","shortcodes","partials","amp","seo","schema"]
 min_version = 0.17
 
-[[authors]]
-    [author]
-        name = "Raphael Wildhaber"
-        homepage = "https://github.com/wildhaber"
-    [author]
-        name = "Lucas Jahn"
-        homepage = "https://github.com/lucasjahn"
+[author]
+    name = "Raphael Wildhaber"
+    homepage = "https://github.com/wildhaber"

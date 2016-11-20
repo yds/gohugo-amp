@@ -1,7 +1,7 @@
 # gohugo-amp
 ⚡ AMP starter theme for gohugo https://gohugo-amp.gohugohq.com
 
-![gohugo-amp](images/tn.png)
+![gohugo-amp](https://github.com/wildhaber/gohugo-amp/blob/master/images/tn.png)
 
 This Hugo theme is supposed to be a starter theme to make it easy to adapt to [Google's AMP-Project](https://www.ampproject.org/). Included in the theme are [**40+ shortcodes and partials**](https://gohugo-amp.gohugohq.com/shortcodes/) and [automatic Structured Data](https://gohugo-amp.gohugohq.com/schema/) making it a pleasure to embed AMP-Elements within your content files or your template.
 
