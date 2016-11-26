@@ -52,7 +52,10 @@ For some features, you need to add configuration to your base `config.toml` para
     publisherLogo = "https://gohugo-amp.gohugohq.com/logo-publisher.png" # https://developers.google.com/search/docs/data-types/articles#logo-guidelines
     publisherLogoWidth = 600 # logo width
     publisherLogoHeight = 60 # logo height
-    
+
+    stylesheetRegular = ["/base-styling.css"] # these styles are used when amp is disabled for a specific page
+    javascriptRegular = ["/script.js"] # these scripts are used when amp is disabled for a specific page
+
 ```
 
 
