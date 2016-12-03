@@ -5,6 +5,7 @@
     <amp-ad type="adsense"
             {{ if isset . "width" }}width="{{ .width }}"{{ end }}
     {{ if isset . "height" }}height="{{ .height }}"{{ end }}
+    {{ with .layout }}layout="{{ . }}"{{ end }}
     data-ad-client="{{ $.Site.Params.adsensePublisher }}"
     {{ if isset . "slot" }}data-ad-slot="{{ .slot }}"{{ end }}>
     </amp-ad>
@@ -18,6 +19,7 @@
     <amp-ad type="adsense"
             {{ if isset . "width" }}width="{{ .width }}"{{ end }}
     {{ if isset . "height" }}height="{{ .height }}"{{ end }}
+    {{ with .layout }}layout="{{ . }}"{{ end }}
     data-ad-client="{{ $publisher }}"
     {{ if isset . "slot" }}data-ad-slot="{{ .slot }}"{{ end }}>
     </amp-ad>
