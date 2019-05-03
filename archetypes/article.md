@@ -6,26 +6,26 @@ title = ""
 tags = []
 
 [amp]
-    elements = []
-    
+  elements = []
+
 [article]
-    lead = ""
-    category = ""
-    related = []
+  lead = ""
+  category = ""
+  related = []
 
 [author]
-    name = ""
-    image = ""
-    bio = ""
-    homepage = ""
+  name = ""
+  image = ""
+  bio = ""
+  homepage = ""
 
 [image]
-    src = ""
-    title = ""
-    author = ""
-    link = ""
-    license = ""
-    licenseLink = ""
+  src = ""
+  title = ""
+  author = ""
+  link = ""
+  license = ""
+  licenseLink = ""
 
 [sitemap]
   changefreq = "monthly"

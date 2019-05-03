@@ -7,15 +7,15 @@ title = ""
 tags = []
 
 [amp]
-    elements = []
+  elements = []
 
 [image]
-    src = ""
-    title = ""
-    author = ""
-    link = ""
-    license = ""
-    licenseLink = ""
+  src = ""
+  title = ""
+  author = ""
+  link = ""
+  license = ""
+  licenseLink = ""
 
 [sitemap]
   changefreq = "monthly"
