@@ -17,25 +17,25 @@
   "recipeIngredient": {{ .Params.recipe.ingredients }},
   "recipeInstructions": {{ .Params.recipe.instructions }},
   "aggregateRating" : {
-      "@context": "http://schema.org",
-      "@type": "AggregateRating",
-      "ratingValue": "{{ .Params.rating.value }}",
-      "reviewCount": "{{ .Params.rating.reviewCount }}",
-      "bestRating": "{{ .Params.rating.best }}",
-      "worstRating": "{{ .Params.rating.worst }}"
+    "@context": "http://schema.org",
+    "@type": "AggregateRating",
+    "ratingValue": "{{ .Params.rating.value }}",
+    "reviewCount": "{{ .Params.rating.reviewCount }}",
+    "bestRating": "{{ .Params.rating.best }}",
+    "worstRating": "{{ .Params.rating.worst }}"
   },
   "image" : {
-      "@context": "http://schema.org",
-      "@type": "ImageObject",
-      "author": "{{ .Params.image.author }}",
-      "url": "{{ .Params.image.src }}",
-      "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05" }}",
-      "name": "{{ .Params.image.title }}",
-      "height" : {{ .Params.image.height }},
-      "width" : {{ .Params.image.width }},
-      "license" : "{{ .Params.image.license_link }}",
-      "isBasedOn" : "{{ .Params.image.link }}"
-    },
+    "@context": "http://schema.org",
+    "@type": "ImageObject",
+    "author": "{{ .Params.image.author }}",
+    "url": "{{ .Params.image.src }}",
+    "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05" }}",
+    "name": "{{ .Params.image.title }}",
+    "height" : {{ .Params.image.height }},
+    "width" : {{ .Params.image.width }},
+    "license" : "{{ .Params.image.license_link }}",
+    "isBasedOn" : "{{ .Params.image.link }}"
+  },
   "nutrition": {
     "@type": "NutritionInformation",
     "servingSize": "{{ .Params.nutrition.servingSize }}",
